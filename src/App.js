@@ -9,6 +9,7 @@ import Home from './components/home/Home';
 import Notfound from './notfound/Notfound';
 import About from './components/about/About';
 import Courses from './components/Courses/Courses';
+import Course from './components/course/Course';
 
 
 function App() {
@@ -27,6 +28,9 @@ function App() {
       <Route path='/courses'>
        <Body></Body>
       </Route>
+      <Route path='/courses/:courseId'>
+            <Course></Course>
+          </Route>
       <Route path='/about'>
         <About></About>
       </Route>
