@@ -1,10 +1,12 @@
 import React from 'react';
+import Footer from '../footer/Footer';
 
-const Course = () => {
+const Course = (props) => {
+   
     return (
-        <div>
-            <h1>This is course</h1>
-        </div>
+       <div>
+           
+       </div>
     );
 };
 
